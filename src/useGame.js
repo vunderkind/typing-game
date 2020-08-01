@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react';
 export default function useGame(){
-    const START_TIME = 5
+    const START_TIME = 15
   const [count, setCount] = useState(0);
   const [timeRemaining, setTimeRemaining] = useState(START_TIME);
   const [words, setWords] = useState("");
