@@ -17,7 +17,7 @@ function App() {
       onChange={handleChange}/>
       <br/>
   <button onClick={start} disabled={startGame}>{startGame? "Running": "Start!"}</button>
-  <h2>{count==0? "Word count: 0": `You typed ${count} in one minute!`}</h2>
+  <h2>{count==0? "Word count: 0": `You typed ${count} words in 15 seconds!`}</h2>
       </div>
     
   )
